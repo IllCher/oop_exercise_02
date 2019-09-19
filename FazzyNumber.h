@@ -6,12 +6,12 @@ public:
     fn();
     fn(double a, double b);
     void print_value();
-    static fn sum;
-    static fn difference(fn &a, fn &b);
-    static fn comp;
-    static fn division;
-    static fn inv(fn &a);
-    static void comparison(fn &a, fn &b);
+    static fn sum(const fn &a, const fn &b);
+    static fn difference(const fn &a, const fn &b);
+    static fn comp(const fn &a, const fn &b);
+    static fn division(const fn &a, const fn &b);
+    static fn inv(const fn &a);
+    static void comparison(const fn &a, const fn &b);
 private:
     double array[2];
 };
