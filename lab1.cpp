@@ -3,8 +3,10 @@
 #include "FazzyNumber.h"
 
 int main() {
-    fn a{50,80};
-    fn b{32,90};
+    double l1,r1,l2,r2;
+    std::cin >> l1 >> r1 >> l2 >> r2;
+    fn a{l1,r1};
+    fn b{l2,r2};
     fn::sum(a,b).print_value();
     fn::difference(a,b).print_value();
     fn::comp(a,b).print_value();

@@ -27,7 +27,7 @@ fn fn::comp(const fn &a, const fn &b) {
 };
 fn fn::division(const fn &a, const fn &b) {
     fn result;
-    assert(a.array[1] * b.array[1]);
+    assert(b.array[0] * b.array[1]);
     result.array[0] = a.array[0] / b.array[1];
     result.array[1] = a.array[1] / b.array[0];
     return result;
