@@ -34,7 +34,7 @@ fn fn::division(const fn &a, const fn &b) {
 }
 fn fn::inv(const fn &a) {
     fn result;
-    assert(a.array[1] * a.array[1]);
+    assert(a.array[1] * a.array[0]);
     result.array[0] = 1 / a.array[1];
     result.array[1] = 1 / a.array[0];
     return result;
