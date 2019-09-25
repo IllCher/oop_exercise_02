@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include "FazzyNumber.h"
+#include "FazzyNumber.hpp"
 fn::fn():array{0,0} {};
 fn::fn(double a, double b): array{a, b} {};
 void fn::print_value() {

@@ -1,8 +1,8 @@
-# Install script for directory: D:/Study/Labs2course/lab1
+# Install script for directory: D:/Study/Labs2course/oop_lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/lab1")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Study/Labs2course/lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Study/Labs2course/oop_lab1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

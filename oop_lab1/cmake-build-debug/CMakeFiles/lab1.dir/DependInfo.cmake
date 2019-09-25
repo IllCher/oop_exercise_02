@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Study/Labs2course/lab1/FazzyNumber.cpp" "D:/Study/Labs2course/lab1/cmake-build-debug/CMakeFiles/lab1.dir/FazzyNumber.cpp.obj"
-  "D:/Study/Labs2course/lab1/lab1.cpp" "D:/Study/Labs2course/lab1/cmake-build-debug/CMakeFiles/lab1.dir/lab1.cpp.obj"
+  "D:/Study/Labs2course/oop_lab1/FazzyNumber.cpp" "D:/Study/Labs2course/oop_lab1/cmake-build-debug/CMakeFiles/lab1.dir/FazzyNumber.cpp.obj"
+  "D:/Study/Labs2course/oop_lab1/lab1.cpp" "D:/Study/Labs2course/oop_lab1/cmake-build-debug/CMakeFiles/lab1.dir/lab1.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

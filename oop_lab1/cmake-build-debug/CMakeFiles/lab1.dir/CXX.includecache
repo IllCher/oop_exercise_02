@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-D:/Study/Labs2course/lab1/FazzyNumber.cpp
+D:/Study/Labs2course/oop_lab1/FazzyNumber.cpp
 iostream
 -
 cassert
 -
-FazzyNumber.h
-D:/Study/Labs2course/lab1/FazzyNumber.h
+FazzyNumber.hpp
+D:/Study/Labs2course/oop_lab1/FazzyNumber.hpp
 
-D:/Study/Labs2course/lab1/FazzyNumber.h
+D:/Study/Labs2course/oop_lab1/FazzyNumber.hpp
 
-D:/Study/Labs2course/lab1/lab1.cpp
+D:/Study/Labs2course/oop_lab1/lab1.cpp
 iostream
 -
 cassert
 -
-FazzyNumber.h
-D:/Study/Labs2course/lab1/FazzyNumber.h
+FazzyNumber.hpp
+D:/Study/Labs2course/oop_lab1/FazzyNumber.hpp
 

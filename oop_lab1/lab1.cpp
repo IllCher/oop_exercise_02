@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include "FazzyNumber.h"
+#include "FazzyNumber.hpp"
 
 int main() {
     double l1,r1,l2,r2;
