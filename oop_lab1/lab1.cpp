@@ -5,7 +5,7 @@
 
 int main() {
     double l1,r1,l2,r2;
-    std::ifstream fin("test_01.txt");
+    std::ifstream fin("test_04.txt");
     fin >> l1 >> r1 >> l2 >> r2;
     fn a{l1,r1};
     fn b{l2,r2};
