@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Study/Labs2course/oop_lab1/FazzyNumber.hpp
-
-D:/Study/Labs2course/oop_lab1/lab1.cpp
+D:/Study/Labs2course/oop_lab1/FazzyNumber.cpp
 iostream
--
-fstream
 -
 cassert
 -
 FazzyNumber.hpp
+D:/Study/Labs2course/oop_lab1/FazzyNumber.hpp
+
 D:/Study/Labs2course/oop_lab1/FazzyNumber.hpp
 
