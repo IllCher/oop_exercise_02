@@ -4,7 +4,7 @@
 fn::fn():array{0,0} {};
 fn::fn(double a, double b): array{a, b} {};
 void fn::print_value() {
-    std::cout<<"@"<<array[0]<<"@"<<" @"<<array[1]<<"@"<<std::endl;
+    std::cout<<array[0]<<" "<<array[1]<<std::endl;
 };
 fn fn::sum(const fn &a, const fn &b) {
     fn result;

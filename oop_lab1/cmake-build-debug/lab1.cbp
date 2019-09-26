@@ -88,6 +88,21 @@
 		<Unit filename="D:/Study/Labs2course/oop_lab1/FazzyNumber.hpp">
 			<Option target="lab1"/>
 		</Unit>
+		<Unit filename="D:/Study/Labs2course/oop_lab1/cmake-build-debug/test_00.txt">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="D:/Study/Labs2course/oop_lab1/cmake-build-debug/test_01.txt">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="D:/Study/Labs2course/oop_lab1/cmake-build-debug/test_02.txt">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="D:/Study/Labs2course/oop_lab1/cmake-build-debug/test_03.txt">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="D:/Study/Labs2course/oop_lab1/cmake-build-debug/test_04.txt">
+			<Option target="lab1"/>
+		</Unit>
 		<Unit filename="D:/Study/Labs2course/oop_lab1/lab1.cpp">
 			<Option target="lab1"/>
 		</Unit>
