@@ -22,10 +22,10 @@ fn fn::difference(const fn &a, const fn &b) {
 fn fn::mult(const fn &a, const fn &b) {
     fn result;
     double t, m, p, k;
-    t = a.array[0] * a.array[1];
+    t = a.array[0] * a.array[0];
     m = a.array[0] * b.array[1];
     p = a.array[1] * b.array[0];
-    k = a.array[0] * b.array[1];
+    k = a.array[1] * b.array[1];
     double maximum = std::max(std::max(std::max(t,m), p), k);
     double minimum = std::min(std::min(std::min(t,m), p), k);
     result.array[0] = minimum;
@@ -38,14 +38,15 @@ fn fn::division(const fn &a, const fn &b) {
     result.array[1] = a.array[1] / b.array[0];*/
     fn result;
     double t, m, p, k;
-    t = a.array[0] / a.array[1];
+    t = a.array[0] / b.array[0];
     m = a.array[0] / b.array[1];
     p = a.array[1] / b.array[0];
-    k = a.array[0] / b.array[1];
+    k = a.array[1] / b.array[1];
     double maximum = std::max(std::max(std::max(t,m), p), k);
     double minimum = std::min(std::min(std::min(t,m), p), k);
     result.array[0] = minimum;
     result.array[1] = maximum;
+    return result;
     return result;
 }
 fn fn::inv(const fn &a) {
@@ -67,4 +68,3 @@ int fn::comparison(const fn &a, const fn &b) {
         return 0;
     }
 }
-
