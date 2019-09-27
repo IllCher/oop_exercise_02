@@ -5,8 +5,7 @@
 
 int main() {
     double l1,r1,l2,r2;
-    std::ifstream fin("test_01.txt");
-    fin >> l1 >> r1 >> l2 >> r2;
+    std::cin >> l1 >> r1 >> l2 >> r2;
     fn a{l1,r1};
     fn b{l2,r2};
     fn::sum(a,b).print_value();
@@ -14,7 +13,6 @@ int main() {
     fn::mult(a,b).print_value();
     fn::division(a,b).print_value();
     fn::inv(a).print_value();
-    fn::comparison(a, b);
-    fin.close();
+    std::cout<<fn::comparison(a, b);
     return 0;
 }
