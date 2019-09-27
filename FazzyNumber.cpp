@@ -22,7 +22,7 @@ fn fn::difference(const fn &a, const fn &b) {
 fn fn::mult(const fn &a, const fn &b) {
     fn result;
     double t, m, p, k;
-    t = a.array[0] * a.array[0];
+    t = a.array[0] * b.array[0];
     m = a.array[0] * b.array[1];
     p = a.array[1] * b.array[0];
     k = a.array[1] * b.array[1];
