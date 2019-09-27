@@ -53,6 +53,9 @@ fn fn::inv(const fn &a) {
     assert(a.array[1] * a.array[0]);
     result.array[0] = 1 / a.array[1];
     result.array[1] = 1 / a.array[0];
+    if (result.array[0] > result.array[1]){
+        std::swap(result.array[0], result.array[1]);
+    }
     return result;
 }
 int fn::comparison(const fn &a, const fn &b) {
