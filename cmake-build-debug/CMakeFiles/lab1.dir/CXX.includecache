@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/FazzyNumber.hpp
+
+/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/lab1.cpp
+iostream
+-
+fstream
+-
+cassert
+-
+FazzyNumber.hpp
+/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/FazzyNumber.hpp
+
