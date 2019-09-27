@@ -33,7 +33,7 @@ fn fn::mult(const fn &a, const fn &b) {
     return result;
 };
 fn fn::division(const fn &a, const fn &b) {
-    assert(b.array[0] * b.array[1]);
+    assert(b.array[0] * b.array[1] > 0);
     /*result.array[0] = a.array[0] / b.array[1];
     result.array[1] = a.array[1] / b.array[0];*/
     fn result;
