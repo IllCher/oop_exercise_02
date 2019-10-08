@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/FazzyNumber.cpp" "/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/cmake-build-debug/CMakeFiles/lab1.dir/FazzyNumber.cpp.o"
-  "/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/lab1.cpp" "/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/cmake-build-debug/CMakeFiles/lab1.dir/lab1.cpp.o"
+  "D:/Study/Labs2course/oop_exercise_02/FazzyNumber.cpp" "D:/Study/Labs2course/oop_exercise_02/cmake-build-debug/CMakeFiles/lab1.dir/FazzyNumber.cpp.obj"
+  "D:/Study/Labs2course/oop_exercise_02/lab2.cpp" "D:/Study/Labs2course/oop_exercise_02/cmake-build-debug/CMakeFiles/lab1.dir/lab2.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/FazzyNumber.hpp
+D:/Study/Labs2course/oop_exercise_02/FazzyNumber.hpp
 
-/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/lab1.cpp
+D:/Study/Labs2course/oop_exercise_02/lab2.cpp
 iostream
 -
 fstream
@@ -16,5 +16,5 @@ fstream
 cassert
 -
 FazzyNumber.hpp
-/cygdrive/c/Users/Ilya/Desktop/Labs2kurs_1sem/OOP_lab1/FazzyNumber.hpp
+D:/Study/Labs2course/oop_exercise_02/FazzyNumber.hpp
 

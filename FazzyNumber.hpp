@@ -5,14 +5,18 @@ class fn {
 public:
     fn();
     fn(double a, double b);
-    void print_value();
-    static fn sum(const fn &a, const fn &b);
-    static fn difference(const fn &a, const fn &b);
-    static fn mult(const fn &a, const fn &b);
-    static fn division(const fn &a, const fn &b);
+    fn operator+(const fn &b);
+    fn operator-(const fn &b);
+    fn operator*(const fn &b);
+    fn operator/(const fn &b);
+    bool operator==(const fn &b);
+    bool operator<(const fn &b);
+    bool operator>(const fn &b);
     static fn inv(const fn &a);
-    static int comparison(const fn &a, const fn &b);
+    friend std::ostream &operator<<(std::ostream &out, fn const &a);
+    friend std::istream &operator>>(std::istream &in, fn &a);
 private:
     double array[2];
 };
+fn operator"" _fn(long double);
 #endif //LAB1_FAZZYNUMBER_HPP

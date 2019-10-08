@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab1.dir/lab1.cpp.o"
-  "CMakeFiles/lab1.dir/FazzyNumber.cpp.o"
-  "lab1.pdb"
+  "CMakeFiles/lab1.dir/FazzyNumber.cpp.obj"
+  "CMakeFiles/lab1.dir/lab2.cpp.obj"
   "lab1.exe"
+  "lab1.exe.manifest"
+  "lab1.pdb"
   "liblab1.dll.a"
 )
 
