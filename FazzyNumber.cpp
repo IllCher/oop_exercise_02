@@ -7,19 +7,19 @@ fn::fn(double a, double b): array{a, b} {};
 void fn::print_value() {
     std::cout<<array[0]<<" "<<array[1]<<std::endl;
 };
-fn fn::sum(const fn &a, const fn &b) {
+fn fn::operator+(const fn &a, const fn &b) {
     fn result;
     result.array[0] = a.array[0] + b.array[0];
     result.array[1] = a.array[1] + b.array[1];
     return result;
 };
-fn fn::difference(const fn &a, const fn &b) {
+fn fn::operator-(const fn &a, const fn &b) {
     fn result;
     result.array[0] = a.array[0] - b.array[1];
     result.array[1] = a.array[1] - b.array[0];
     return result;
 };
-fn fn::mult(const fn &a, const fn &b) {
+fn fn::operator*(const fn &a, const fn &b) {
     fn result;
     double t, m, p, k;
     t = a.array[0] * b.array[0];
@@ -32,7 +32,7 @@ fn fn::mult(const fn &a, const fn &b) {
     result.array[1] = maximum;
     return result;
 };
-fn fn::division(const fn &a, const fn &b) {
+fn fn::operator/(const fn &a, const fn &b) {
     assert(b.array[0] * b.array[1] > 0);
     fn result;
     double t, m, p, k;
@@ -47,7 +47,7 @@ fn fn::division(const fn &a, const fn &b) {
     return result;
     return result;
 }
-fn fn::inv(const fn &a) {
+fn fn::operator\(const fn &a) {
     fn result;
     assert(a.array[1] * a.array[0] > 0);
     result.array[0] = 1 / a.array[1];
