@@ -11,23 +11,24 @@ int main() {
     std::cout << "a - b\n" << a - b;
     std::cout << "a * b\n" << a * b;
     std::cout << "a / b\n" << a / b;
+    std::cout << "1 / a\n" << fn::inv(a);
     std::cout << "a = b ? ";
     if (a == b) {
-        std::cout << "YES\n";
+        std::cout << "1\n";
     } else {
-        std::cout << "NO\n";
+        std::cout << "0\n";
     }
     std::cout << "a < b ? ";
     if (a < b) {
-        std::cout << "YES\n";
+        std::cout << "1\n";
     } else {
-        std::cout << "NO\n";
+        std::cout << "0\n";
     }
     std::cout << "a > b ? ";
     if (a > b) {
-        std::cout << "YES\n";
+        std::cout << "1\n";
     } else {
-        std::cout << "NO\n";
+        std::cout << "0\n";
     }
     fn c = 2.5_fn;
     std::cout << "c:\n" << c;
