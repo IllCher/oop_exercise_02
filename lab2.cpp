@@ -30,7 +30,7 @@ int main() {
     } else {
         std::cout << "0\n";
     }
-    fn c = 2.5_fn;
+    fn c = 3.8_fn;
     std::cout << "c:\n" << c;
     return 0;
 }

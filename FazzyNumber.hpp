@@ -5,13 +5,13 @@ class fn {
 public:
     fn();
     fn(double a, double b);
-    fn operator+(const fn &b);
-    fn operator-(const fn &b);
-    fn operator*(const fn &b);
-    fn operator/(const fn &b);
-    bool operator==(const fn &b);
-    bool operator<(const fn &b);
-    bool operator>(const fn &b);
+    fn operator+(const fn &b) const;
+    fn operator-(const fn &b) const;
+    fn operator*(const fn &b) const;
+    fn operator/(const fn &b) const;
+    bool operator==(const fn &b) const;
+    bool operator<(const fn &b) const;
+    bool operator>(const fn &b) const;
     static fn inv(const fn &a);
     friend std::ostream &operator<<(std::ostream &out, fn const &a);
     friend std::istream &operator>>(std::istream &in, fn &a);
